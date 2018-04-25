@@ -1,0 +1,28 @@
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.9;
+    background: #fff; }
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+#signup .row {
+    padding-top: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#signup.card{
+    background-color: #3292a6;
+}
+.fa{
+    font-size: 30px;
+    border-radius: 5px;
+    /*background-color: crimson;*/
+}
+
+.question{
+    /*background-color: crimson;*/
+    font-size: 20px;
+}
+.answer{
+    font-size: 18px;
+}

@@ -1,0 +1,35 @@
+Create a single page application website.
+ 
+Assignment Details:
+The application would involve 2 steps. First, there should be an authentication module where user shall sign up/in to view the book’s content.
+ 
+Functionalities:
+• To allow the client to sign up and save user data (username and password) in global javascript array(instead of database).
+• To allow the client to login using the above stored credentials.
+• To parse the JSON data given in attachment file- json.txt file and display the hierarchy in a navigation-bar webpage. (Refer to attachment file- wireframe.png)
+• To allow addition of grades, subjects, chapters and questions/answers, and update UI accordingly.
+ 
+ 
+ 
+Some additional points/Tips:
+• You should use HTML , CSS, Javascript, jQuery, Bootstrap and any other language/plugin/library that you may feel is relevant.
+• You should use Github version control and upload it as a project on Github and share its corresponding link as a reply to this email.
+ 
+ 
+Evaluation Criteria:
+1. UI/UX and responsiveness
+2. Application Readiness
+3. Robustness of the website
+4. Authorisation Handling
+5. Code quality and readability
+6. Usage of GitHub , commit messages, description. (commits should be made frequently)
+7. Exception handling and error messages ( in case of incorrect data sent by client)
+ 
+ 
+Submission Process & Deadline:
+You must submit the completed assignment by 7 pm on 29th April 2018 . In case you are not able to completely finish , please bring it to a logical step and submit.
+The completed application code must be uploaded as a project on GitHub and shared with us. 
+Please find the zip attachment containing this test’s relevant files.
+ 
+Please do get back to me in case you have any query/doubt regarding the problem statement.
+ 

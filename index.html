@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Q&A</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light fixed-top py-4 ">
+    <div class="container">
+        <a href="#" class="navbar-brand">
+            <h3 class="d-inline align-middle">Q&A Forum</h3>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">SignIn</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<section id="signup">
+        <div class="row">
+
+            <div class="col-lg-2 mb-5">
+                <div id="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading1">
+                            <h5 class="mb-0"><a href="#collapse1" data-parent="#accordion" data-toggle="collapse">
+                                Grade 11
+                            </a></h5>
+                        </div>
+
+                        <div id="collapse1" class="collapse p-3">
+                            <div class="card">
+                                <div class="card-header" role="tab" id="heading11">
+                                    <h5 class="mb-0"><a href="#collapse11" data-parent="#collapse1" data-toggle="collapse">
+                                        Science
+                                    </a></h5>
+                                </div>
+
+                                <div id="collapse11" class="collapse">
+                                    <div class="card-body">
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                            <a class="list-group-item list-group-item-action active" id="electric-charge" href="#list-electric-charge" data-toggle="list">Charge</a>
+                                            <a class="list-group-item list-group-item-action" id="electric-field" href="#list-electric-field" data-toggle="list">Electric field</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" role="tab" id="heading12">
+                                    <h5 class="mb-0"><a href="#collapse12" data-parent="#collapse1" data-toggle="collapse">
+                                        Mathematics
+                                    </a></h5>
+                                </div>
+
+                                <div id="collapse12" class="collapse">
+                                    <div class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" role="tab" id="heading2">
+                            <h5 class="mb-0"><a href="#collapse2" data-parent="#accordion" data-toggle="collapse">
+                                Grade 12
+                            </a></h5>
+                        </div>
+
+                        <div id="collapse2" class="collapse p-3">
+                            <div class="card">
+                                <div class="card-header" role="tab" id="heading21">
+                                    <h5 class="mb-0"><a href="#collapse21" data-parent="#collapse2" data-toggle="collapse">
+                                        Social Studies
+                                    </a></h5>
+                                </div>
+
+                                <div id="collapse21" class="collapse">
+                                    <div class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-electric-charge" role="tabpanel">
+
+                        <div class="card border-primary mb-3">
+                            <div class="card-header font-weight-bold">
+                                <div class="d-flex flex-row">
+                                    <div class="p-2 align-self-start">
+                                        <i class="fa fa-question-circle"></i>
+                                    </div>
+                                    <div class="p-2 align-self-end">
+                                        <p class="card-text question">What is charge?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text font-italic answer">Electric Charge is physical property of matter due to which other matters experience force
+                                    when other matters are placed in electromagnetic field.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-primary mb-3">
+                            <div class="card-header font-weight-bold">
+                                <div class="d-flex flex-row">
+                                    <div class="p-2 align-self-start">
+                                        <i class="fa fa-question-circle"></i>
+                                    </div>
+                                    <div class="p-2 align-self-end">
+                                        <p class="card-text question">How many positive and negative charges are there in a cup of water?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text font-italic answer">
+                                    The no. of molecules in one cup of water is (250/18)*6.02=1023.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade show" id="list-electric-field" role="tabpanel">
+
+                        <div class="card border-primary mb-3">
+                            <div class="card-header font-weight-bold">
+                                <div class="d-flex flex-row">
+                                    <div class="p-2 align-self-start">
+                                        <i class="fa fa-question-circle"></i>
+                                    </div>
+                                    <div class="p-2 align-self-end">
+                                        <p class="card-text question">What is electric field?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text font-italic answer">
+                                    Electric field is nice.......
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3">
+
+                <div class="card text-center card-form">
+                    <div class="card-body">
+                        <h3>SignUp Today!!</h3>
+                        <p>Please Fill out this form to register</p>
+
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-lg" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control form-control-lg" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control form-control-lg" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                            </div>
+                            <input type="submit" class="btn btn-outline btn-block">
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
